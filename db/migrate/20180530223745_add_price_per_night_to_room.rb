@@ -1,5 +1,5 @@
 class AddPricePerNightToRoom < ActiveRecord::Migration[5.0]
   def change
-    add_column :rooms, :price, :decimal
+    add_column :rooms, :price_per_night, :decimal
   end
 end
